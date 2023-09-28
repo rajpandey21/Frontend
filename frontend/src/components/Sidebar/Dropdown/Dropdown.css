@@ -1,0 +1,38 @@
+/* .drop{
+    /* width: 10rem;
+    background: lightskyblue;
+    height: 10rem; */
+   
+  
+
+
+.service-submenu{
+    width: 10rem;
+    text-align: start;
+    margin-left: -20px;
+    position: absolute;
+   
+}
+
+
+.service-submenu li{
+    background: lightskyblue;
+    cursor: pointer;
+}
+
+.service-submenu.clicked{
+    display: none;
+}
+
+.submenu-item{
+    display: block;
+    width: 100%;
+    height: 100%;
+     color: black;
+     gap: 1rem; 
+     padding: 5px;
+}
+
+.submenu-item:hover{
+    background: rgb(0 175 175);
+}
